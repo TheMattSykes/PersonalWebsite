@@ -4,9 +4,9 @@ import headerStyles from './header.module.scss';
 
 function Header() {
   return (
-    <header className={headerStyles.header} >
+    <header className={headerStyles.header}>
       <h1>
-        <Link className={headerStyles.title} to="/">Matt Sykes</Link>
+        <Link className={headerStyles.title} to="/"><img id={headerStyles.mainLogo} src={'/images/m-logo-white.svg'} alt="Main Website Logo"/></Link>
       </h1>
       <nav>
         <ul className={headerStyles.navList}>

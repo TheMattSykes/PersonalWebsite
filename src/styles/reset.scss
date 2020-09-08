@@ -1,7 +1,6 @@
 /* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
 
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -78,13 +77,16 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
 mark {
   background-color: #ff0;
   color: #000;
 }
+
 small {
   font-size: 80%;
 }
+
 sub,
 sup {
   font-size: 75%;
@@ -92,18 +94,23 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 sup {
   top: -0.5em;
 }
+
 img {
   border-style: none;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
+
 code,
 kbd,
 pre,
@@ -111,14 +118,17 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+
 figure {
   margin: 1em 40px;
 }
+
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
+
 button,
 input,
 optgroup,
@@ -127,9 +137,11 @@ textarea {
   font: inherit;
   margin: 0;
 }
+
 optgroup {
   font-weight: 700;
 }
+
 button,
 input {
   overflow: visible;
@@ -214,7 +226,6 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -234,6 +245,7 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -244,13 +256,10 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
 }
+
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -261,13 +270,12 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
 }
+
 h3 {
   margin-left: 0;
   margin-right: 0;
@@ -278,8 +286,6 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -295,8 +301,6 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -312,13 +316,12 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
 }
+
 h6 {
   margin-left: 0;
   margin-right: 0;
@@ -329,8 +332,6 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -354,7 +355,7 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -523,7 +524,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: 0;
 }
 ol li {
   padding-left: 0;
@@ -533,13 +534,13 @@ ul li {
 }
 li > ol {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 li > ul {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 blockquote *:last-child {
   margin-bottom: 0;

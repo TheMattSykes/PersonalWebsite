@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2170,-0.178703)">
+        <g id="m-logo-black" transform="matrix(0.520833,0,0,0.925926,2170,0.178703)">
+            <rect x="0" y="0" width="1920" height="1080" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="1920" height="1080"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(4.16667,0,0,4.16667,-3040,-1890.1)">
+                    <g transform="matrix(1.01585e-16,1.08,-2.05714,-4.59008e-17,2799.09,-602.64)">
+                        <path d="M1218,838C1218,807.093 1191.12,782 1158,782L1038,782C1004.88,782 978,807.093 978,838L978,950C978,980.907 1004.88,1006 1038,1006L1158,1006C1191.12,1006 1218,980.907 1218,950L1218,838Z" style="fill:url(#_Linear2);"/>
+                    </g>
+                    <g transform="matrix(401.205,0,0,225.678,768.424,662.187)">
+                        <path d="M0.841,-0.7L0.841,-0L0.77,-0L0.77,-0.56L0.495,-0.089L0.46,-0.089L0.185,-0.557L0.185,-0L0.114,-0L0.114,-0.7L0.175,-0.7L0.479,-0.181L0.78,-0.7L0.841,-0.7Z" style="fill:white;fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(240,0,0,224,978,894)"><stop offset="0" style="stop-color:rgb(53,53,53);stop-opacity:1"/><stop offset="1" style="stop-color:black;stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
