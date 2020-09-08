@@ -7,9 +7,9 @@ function IndexPage() {
   return (
     <Layout>
       <div class="welcome-area">
-        <img src={'/images/background.png'} className="background" alt="Background image."></img>
-        <div>
-          <img src={'/images/full-logo-white.svg'} className="background-logo"/>
+        <img src={'/images/background.png'} className="background" alt="Background."></img>
+        <div className="welcome-info">
+          <img src={'/images/full-logo-white.svg'} className="background-logo" alt="Main Logo (Non-link)"/>
           <p className="welcome-desc">Full-Stack Web and iOS Developer</p>
           <div class="social-icons">
             <a href=""><img src={'/images/twitter-round-icon.svg'} alt="Twitter social link." className="social-icon"/></a>
