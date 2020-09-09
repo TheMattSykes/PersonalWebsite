@@ -1,0 +1,25 @@
+.container {
+    // display: flex;
+    margin: 15px;
+}
+
+.lang-name {
+    margin: 0;
+    padding: 5px;
+}
+
+.front, .back {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.back {
+    display: block;
+    margin: auto;
+    background-color: #c2c2c2;
+    max-width: 400px;
+}
+
+.front {
+    background-color: #57ac84;
+}

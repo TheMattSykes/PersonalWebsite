@@ -58,3 +58,20 @@
 .social-icon:hover {
     opacity: 0.8;
 }
+
+// Main Section and Programming Section
+
+.main-index, .programming-section {
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    max-width: 750px;
+}
+
+.index-title {
+    font-size: 1.8em;
+}
+
+.programming {
+    padding: 10px;
+}
