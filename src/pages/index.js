@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'gatsby';
 import Layout from '../components/layout';
 import '../styles/index.scss';
+import '../styles/scroll.scss';
 
 function IndexPage() {
   return (
@@ -15,6 +16,12 @@ function IndexPage() {
             <a href=""><img src={'/images/twitter-round-icon.svg'} alt="Twitter social link." className="social-icon"/></a>
             <a href=""><img src={'/images/github-round-icon.png'} alt="Github social link." className="social-icon"/></a>
             <a href=""><img src={'/images/linkedin-icon.png'} alt="LinkedIn social link." className="social-icon"/></a>
+          </div>
+          <div className="container">
+            <div className="chevron"></div>
+            <div className="chevron"></div>
+            <div className="chevron"></div>
+            {/* <span class="text">Scroll down</span> */}
           </div>
         </div>
       </div>

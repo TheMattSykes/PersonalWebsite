@@ -15,11 +15,16 @@
 
 #main-logo {
     padding: 0;
-    width: 60px;
+    width: 50px;
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
+    transition: filter 0.2s;
+}
+
+#main-logo:hover {
+    filter: brightness(80%);
 }
 
 .title {
@@ -41,6 +46,7 @@
     font-size: .9rem;
     margin-right: 1.3rem;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 .nav-item:hover {

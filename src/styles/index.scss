@@ -52,4 +52,9 @@
     margin: 10px;
     height: 40px;
     filter: brightness(700%);
+    transition: opacity 0.2s ease-out;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
 }
