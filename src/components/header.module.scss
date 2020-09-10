@@ -85,19 +85,44 @@
         z-index: 1000;
     }
 
+    #main-logo {
+        position: absolute;
+        margin-left: -25px;
+        left: 50%;
+    }
+
+    #main-logo-wrapper {
+        padding: 10px;
+    }
+
     #main-logo-open-nav {
+        margin: auto;
         position: relative;
         display: block;
     }
 
     .nav-list {
+        margin: auto;
+        width: auto;
         display: block;
         list-style-type: none;
-        margin: 0;
+        text-align: center;
+        overflow: auto;
+        max-width: 170px;
+    }
+
+    .nav-item {
+        margin: 10px;
+        display: block;
+        width: auto;
+        max-width: 200px;
     }
 
     .open-nav {
+        padding: 20px;
         display: block;
+        width: auto;
+        overflow: auto;
     }
 
     .closed-nav {
@@ -106,6 +131,8 @@
 
     .nav-icon {
         display: block;
+        position: absolute;
+        right: 10px;
     }
 
     .hidden-nav-icon {

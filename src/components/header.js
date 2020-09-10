@@ -7,14 +7,15 @@ function Header() {
 
   function switchNav() {
     setNavVisible(!navVisible);
-    console.log("clicked");
   }
 
   return (
     <header className={navVisible ? headerStyles.openHeader : headerStyles.header}>
-      <h1>
-        <Link className={headerStyles.title} to="/"><img id={navVisible ? headerStyles.mainLogoOpenNav : headerStyles.mainLogo} src={'/images/m-logo-white.svg'} alt="Main Website Logo"/></Link>
-      </h1>
+      <div className={headerStyles.mainLogoWrapper}>
+      <Link to="/">
+        <img id={navVisible ? headerStyles.mainLogoOpenNav : headerStyles.mainLogo} src={'/images/m-logo-white.svg'} alt="Main Website Logo"/>
+      </Link>
+      </div>
 
       <nav className={navVisible ? headerStyles.openNav : headerStyles.closedNav}>
         <ul className={headerStyles.navList}>
@@ -25,6 +26,7 @@ function Header() {
             <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link></li>
         </ul>
       </nav>
+
       <button className={headerStyles.navIcon} onClick={() => switchNav()}>Click</button>
     </header>
   );
