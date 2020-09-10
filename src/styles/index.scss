@@ -7,10 +7,7 @@
 }
 
 .background {
-    // width: 100%;
-    // max-height: 2000px;
     position: absolute;
-    // clip: rect(0px,100vw,100vh,0px);
     z-index: -1;
     object-fit: cover;
     width: 100%;
@@ -29,7 +26,6 @@
     position: relative;
     display: block;
     margin: auto;
-    // padding-top: calc(10vh + 80px);
     width: 40%;
     max-width: 500px;
     min-width: 100px;
@@ -61,11 +57,20 @@
 
 // Main Section and Programming Section
 
-.main-index, .programming-section {
+.main-index, .programming-section, .technologies-section, .other-skills-section {
     margin: auto;
-    padding: 30px;
+    padding: 50px;
+    padding-top: 50px;
     width: 50%;
     max-width: 750px;
+}
+
+.technologies-section {
+    margin: 0;
+}
+
+.section-title {
+    text-align: center;
 }
 
 .index-title {
@@ -74,4 +79,40 @@
 
 .programming {
     padding: 10px;
+}
+
+.skills-group {
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    background-color: #222222;
+    color: white;
+}
+
+// Responsive Design
+
+@media only screen and (max-width: 768px) {
+    .background-logo {
+        width: 50%;
+        min-width: 150px;
+    }
+    
+    .welcome-desc {
+        font-size: 1.1em;
+    }
+
+    .skills-group {
+        display: block;
+    }
+
+    .main-index, .programming-section, .technologies-section, .other-skills-section {
+        margin: auto;
+        padding: 50px;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .main-index, .programming-section, .technologies-section, .other-skills-section > p {
+        font-size: 0.9em;
+    }
 }

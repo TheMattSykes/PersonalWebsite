@@ -8,7 +8,7 @@
     padding: 5px;
 }
 
-.front, .back {
+.front, .back, .blue-bars {
     height: 20px;
     border-radius: 10px;
 }
@@ -22,4 +22,8 @@
 
 .front {
     background-color: #57ac84;
+}
+
+.blue-bars {
+    background-color: #7ab4db;
 }

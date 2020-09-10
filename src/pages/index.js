@@ -49,16 +49,40 @@ function IndexPage() {
         </p>
       </main>
 
-      <section className="programming-section">
-        <h2>Programming</h2>
-        <Programming className="programming" name="Java" amount="85"/>
-        <Programming className="programming" name="Swift" amount="85"/>
-        <Programming className="programming" name="HTML/CSS" amount="85"/>
-        <Programming className="programming" name="C#" amount="75"/>
-        <Programming className="programming" name="JavaScript/JSX" amount="70"/>
-        <Programming className="programming" name="C/C++" amount="55"/>
-        <Programming className="programming" name="Python" amount="55"/>
-        <Programming className="programming" name="Ruby" amount="50"/>
+      <div className="skills-group">
+        <section className="programming-section">
+          <h2 className="section-title">Programming</h2>
+          <Programming className="programming" name="Java" amount="85" colourOption={1}/>
+          <Programming className="programming" name="Swift" amount="85" colourOption={1}/>
+          <Programming className="programming" name="HTML/CSS" amount="85" colourOption={1}/>
+          <Programming className="programming" name="C#" amount="75" colourOption={1}/>
+          <Programming className="programming" name="JavaScript/JSX" amount="70" colourOption={1}/>
+          <Programming className="programming" name="C/C++" amount="55" colourOption={1}/>
+          <Programming className="programming" name="Python" amount="55" colourOption={1}/>
+          <Programming className="programming" name="Ruby" amount="50" colourOption={1}/>
+        </section>
+
+        <section className="technologies-section">
+          <h2 className="section-title">Technologies</h2>
+          <Programming className="programming" name="Gatsby" amount="85" colourOption={2}/>
+          <Programming className="programming" name="WordPress" amount="70" colourOption={2}/>
+          <Programming className="programming" name="React JS" amount="60" colourOption={2} />
+          <Programming className="programming" name="Ruby on Rails" amount="55" colourOption={2}/>
+          <Programming className="programming" name="Node JS/Express JS" amount="45" colourOption={2}/>
+        </section>
+      </div>
+
+      <section className="other-skills-section">
+        <h2 className="section-title">Other Skills</h2>
+        <ul>
+          <li>Agile Development</li>
+          <li>DevOps</li>
+          <li>Affinity Designer/Illustrator</li>
+          <li>Final Cut Pro</li>
+          <li>Logic Pro/Cubase</li>
+          <li>Microsoft Office/Google Docs</li>
+        </ul>
+        
       </section>
 
     </Layout>
