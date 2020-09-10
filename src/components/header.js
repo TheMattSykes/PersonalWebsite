@@ -27,7 +27,7 @@ function Header() {
         </ul>
       </nav>
 
-      <button className={headerStyles.navIcon} onClick={() => switchNav()}>Click</button>
+      <img className={navVisible ? headerStyles.closeIcon : headerStyles.navIcon} onClick={() => switchNav()} src={navVisible ? "/images/times-solid.svg" : "/images/bars-solid.svg"}/>
     </header>
   );
 }

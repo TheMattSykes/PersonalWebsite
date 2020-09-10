@@ -12,12 +12,12 @@ function IndexPage() {
       <div className="welcome-area">
         <img src={'/images/background.png'} className="background" alt="Background."></img>
         <div className="welcome-info">
-          <img src={'/images/full-logo-white.svg'} className="background-logo" alt="Main Logo (Non-link)"/>
+          <img src={'/images/full-logo-white.svg'} className="background-logo" alt="Main Logo (Non-link)" />
           <p className="welcome-desc">Full-Stack Web and iOS Developer</p>
           <div className="social-icons">
-            <a href=""><img src={'/images/twitter-round-icon.svg'} alt="Twitter social link." className="social-icon"/></a>
-            <a href=""><img src={'/images/github-round-icon.png'} alt="Github social link." className="social-icon"/></a>
-            <a href=""><img src={'/images/linkedin-icon.png'} alt="LinkedIn social link." className="social-icon"/></a>
+            <a href=""><img src={'/images/twitter-round-icon.svg'} alt="Twitter social link." className="social-icon" /></a>
+            <a href=""><img src={'/images/github-round-icon.png'} alt="Github social link." className="social-icon" /></a>
+            <a href=""><img src={'/images/linkedin-icon.png'} alt="LinkedIn social link." className="social-icon" /></a>
           </div>
           <div className="container">
             <div className="chevron"></div>
@@ -52,23 +52,24 @@ function IndexPage() {
       <div className="skills-group">
         <section className="programming-section">
           <h2 className="section-title">Programming</h2>
-          <Programming className="programming" name="Java" amount="85" colourOption={1}/>
-          <Programming className="programming" name="Swift" amount="85" colourOption={1}/>
-          <Programming className="programming" name="HTML/CSS" amount="85" colourOption={1}/>
-          <Programming className="programming" name="C#" amount="75" colourOption={1}/>
-          <Programming className="programming" name="JavaScript/JSX" amount="70" colourOption={1}/>
-          <Programming className="programming" name="C/C++" amount="55" colourOption={1}/>
-          <Programming className="programming" name="Python" amount="55" colourOption={1}/>
-          <Programming className="programming" name="Ruby" amount="50" colourOption={1}/>
+          <Programming className="programming" name="Java" amount="85" colourOption={1} />
+          <Programming className="programming" name="Swift" amount="85" colourOption={1} />
+          <Programming className="programming" name="HTML/CSS" amount="85" colourOption={1} />
+          <Programming className="programming" name="C#" amount="75" colourOption={1} />
+          <Programming className="programming" name="JavaScript/JSX" amount="70" colourOption={1} />
+          <Programming className="programming" name="C/C++" amount="55" colourOption={1} />
+          <Programming className="programming" name="Python" amount="55" colourOption={1} />
+          <Programming className="programming" name="Ruby" amount="50" colourOption={1} />
         </section>
 
         <section className="technologies-section">
           <h2 className="section-title">Technologies</h2>
-          <Programming className="programming" name="Gatsby" amount="85" colourOption={2}/>
-          <Programming className="programming" name="WordPress" amount="70" colourOption={2}/>
-          <Programming className="programming" name="React JS" amount="60" colourOption={2} />
-          <Programming className="programming" name="Ruby on Rails" amount="55" colourOption={2}/>
-          <Programming className="programming" name="Node JS/Express JS" amount="45" colourOption={2}/>
+          <Programming className="programming" name="Git" amount="85" colourOption={2} />
+          <Programming className="programming" name="WordPress" amount="70" colourOption={2} />
+          <Programming className="programming" name="SQL" amount="65" colourOption={2} />
+          <Programming className="programming" name="React JS/Gatsby" amount="60" colourOption={2} />
+          <Programming className="programming" name="Ruby on Rails" amount="55" colourOption={2} />
+          <Programming className="programming" name="Node JS/Express JS" amount="45" colourOption={2} />
         </section>
       </div>
 
