@@ -1,0 +1,38 @@
+.year-links {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.year-link {
+    margin: 10px;
+    padding: 30px;
+    background-color: #272727;
+    border-radius: 10px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 150px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.year-link:hover {
+    transform: scale(1.03);
+}
+
+.year-link-number {
+    font-size: 4em;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.year-link-title {
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
