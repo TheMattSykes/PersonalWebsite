@@ -57,9 +57,9 @@ function IndexPage() {
           <Programming className="programming" name="HTML/CSS" amount="85" colourOption={1} />
           <Programming className="programming" name="C#" amount="75" colourOption={1} />
           <Programming className="programming" name="JavaScript/JSX" amount="70" colourOption={1} />
+          <Programming className="programming" name="Ruby" amount="65" colourOption={1} />
           <Programming className="programming" name="C/C++" amount="55" colourOption={1} />
-          <Programming className="programming" name="Python" amount="55" colourOption={1} />
-          <Programming className="programming" name="Ruby" amount="50" colourOption={1} />
+          <Programming className="programming" name="Python" amount="50" colourOption={1} />
         </section>
 
         <section className="technologies-section">
@@ -79,7 +79,6 @@ function IndexPage() {
         <h2 className="section-title">Other Skills</h2>
         <ul>
           <li>Agile Development</li>
-          <li>DevOps</li>
           <li>Affinity Designer/Illustrator</li>
           <li>Final Cut Pro</li>
           <li>Logic Pro/Cubase</li>
