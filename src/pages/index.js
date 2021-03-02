@@ -66,10 +66,12 @@ function IndexPage() {
           <h2 className="section-title">Technologies</h2>
           <Programming className="programming" name="Git" amount="85" colourOption={2} />
           <Programming className="programming" name="WordPress" amount="70" colourOption={2} />
+          <Programming className="programming" name="Ruby on Rails" amount="70" colourOption={2} />
+          <Programming className="programming" name="iOS Development" amount="65" colourOption={2} />
           <Programming className="programming" name="SQL" amount="65" colourOption={2} />
-          <Programming className="programming" name="React JS/Gatsby" amount="60" colourOption={2} />
-          <Programming className="programming" name="Ruby on Rails" amount="55" colourOption={2} />
+          <Programming className="programming" name="React JS/Gatsby" amount="50" colourOption={2} />
           <Programming className="programming" name="Node JS/Express JS" amount="45" colourOption={2} />
+          <Programming className="programming" name="Android Development" amount="35" colourOption={2} />
         </section>
       </div>
 

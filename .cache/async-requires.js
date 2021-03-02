@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-first-year-js": () => import("./../../../src/pages/first-year.js" /* webpackChunkName: "component---src-pages-first-year-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-second-year-js": () => import("./../../../src/pages/second-year.js" /* webpackChunkName: "component---src-pages-second-year-js" */),
   "component---src-pages-university-js": () => import("./../../../src/pages/university.js" /* webpackChunkName: "component---src-pages-university-js" */)
 }
 

@@ -3,6 +3,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/reset.scss';
 import '../styles/general.scss';
+import '../styles/images.scss';
 import layoutStyles from './layout.module.scss';
 
 function Layout(props) {

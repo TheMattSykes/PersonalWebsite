@@ -55,6 +55,7 @@ $headerHeight: 10vh;
 
 .nav-icon {
     display: none;
+    cursor: pointer;
 }
 
 .nav-item:hover {
@@ -139,6 +140,7 @@ $headerHeight: 10vh;
         right: 15px;
         top: 2.8vh;
         width: 25px;
+        cursor: pointer;
     }
 
     .close-icon {
@@ -149,6 +151,7 @@ $headerHeight: 10vh;
         right: 15px;
         top: 2.6vh;
         width: 25px;
+        cursor: pointer;
     }
 
     .hidden-nav-icon {
