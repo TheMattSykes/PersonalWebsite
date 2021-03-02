@@ -9,10 +9,13 @@ function FirstYearPage() {
       <main className="page-main">
         <h1 className="page-title-center">First Year</h1>
 
-        <p>Overall Year Grade: 2.1 (63.5%)</p>
+        <p className="page-title-center">Overall Year Grade: 2.1 (63.5%)</p>
+
+        <div className="block"></div>
+
         <section className="section-light">
-            <h2>Pie Project</h2>
-            <p>
+            <h2 className="subtitle-center">Pie Project</h2>
+            <p className="project-description">
                 In a team of five I helped develop a web app which featured an order system for a hypothetical 
                 pie baking company, users could sign in through Twitter authentication and view the status of their order. 
                 The application would list orders made via Twitter through the company handle, the order could then manually be 
@@ -25,8 +28,8 @@ function FirstYearPage() {
         </section>
 
         <section className="section-dark">
-            <h2>Diamond Website</h2>
-            <p>
+            <h2 className="subtitle-center">Diamond Website</h2>
+            <p className="project-description">
                 A static website built using HTML and CSS as a guide to the diamond.
             </p>
             <div className="projectImgWrapper">
@@ -35,8 +38,8 @@ function FirstYearPage() {
         </section>
 
         <section className="section-light">
-            <h2>Chess Project</h2>
-            <p>
+            <h2 className="subtitle-center">Chess Project</h2>
+            <p className="project-description">
                 For the second half of Java Programming we were asked to improve a skeleton code for a chess game and implement a GUI.
             </p>
             <div className="projectImgWrapper">

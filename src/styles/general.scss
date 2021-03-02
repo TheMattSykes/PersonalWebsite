@@ -19,3 +19,15 @@ html {
 .page-title-center {
     text-align: center;
 }
+
+.subtitle-center, .center-block {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+.block {
+    height: 50px;
+    display: block;
+    background-color: transparent;
+}
