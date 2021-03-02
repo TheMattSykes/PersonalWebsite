@@ -33,7 +33,7 @@ function FirstYearPage() {
                 A static website built using HTML and CSS as a guide to the diamond.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg" src="images/com1008screenshot.png" alt="Image of chess board in a default starting layout."/>
+                <img className="projectImg" src="images/com1008screenshot.png" alt="Image of diamond website."/>
             </div>
         </section>
 
