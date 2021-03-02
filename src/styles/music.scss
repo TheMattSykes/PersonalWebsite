@@ -1,0 +1,56 @@
+.neutrinoaudiologo {
+    width: 100%;
+    max-width: 300px;
+    margin: 0px auto 20px auto;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.soundcloudwrapper {
+    width: 90%;
+    max-width: 500px;
+    height: 200px;
+    margin: 0px auto 20px auto;
+    display: block;
+}
+
+.instruments {
+    display: flex;
+    margin: auto 20px;
+    padding: 20px;
+    flex-direction: row;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.instrument {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    width: 180px;
+}
+
+.instrumenticon {
+    max-width: 100px;
+    margin: auto;
+}
+
+.instrumentname {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.instrumentgrade {
+    margin: 2px;
+}
+
+.icons8 {
+    margin-top: 80px;
+}
+
+.instrumentstitle {
+    padding: 20px;
+}

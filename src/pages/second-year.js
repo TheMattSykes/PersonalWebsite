@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'gatsby';
 import Layout from '../components/layout';
 import '../styles/years.scss';
+import ProjectButtons from '../components/projectbuttons';
 
 function SecondYearPage() {
   return (
@@ -40,6 +41,7 @@ function SecondYearPage() {
                 <img className="projectImg" src="images/com2008screenshot.png" alt="Image of log in screen."/>
                 <img className="projectImg" src="images/com2008screenshot2.jpg" alt="Image module selection screen."/>
             </div>
+            <ProjectButtons sourceurl="https://github.com/TheMattSykes/COM2008Team07" sourceEnable={true} dark={true}/>
         </section>
 
       </main>
