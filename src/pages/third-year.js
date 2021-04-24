@@ -11,12 +11,10 @@ function ThirdYearPage() {
 
         <p className="center-block">Overall Year Grade: 2.1 (67.8%)</p>
 
-        <div className="block"></div>
-
         <section className="section-light">
             <h2 className="subtitle-center">Dissertation Project (Hustings)</h2>
-            <img className="hustings-logo" src="images/HustingsLogoGreen.png" alt="Image of com3420 project dashboard with 
-                three menu items and a titlebar."/>
+            <img className="hustings-logo" src="images/HustingsLogoGreen.png" alt="COM3420 project dashboard with three menu 
+            items and a titlebar."/>
             <p className="project-description">
                 An iOS application designed to teach beginners politics. The application was developed using SwiftUI and is
                 compatible with iOS, iPadOS and macOS through Project Catalyst. Hustings enables students to view a range of
@@ -25,9 +23,9 @@ function ThirdYearPage() {
                 debate sides allocated randomly to prevent bias. The database is managed using NoSQL on Firebase.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg-narrow" src="images/com3610screenshot.png" alt="Image of learn menu where students can view
+                <img className="projectImg-narrow" src="images/com3610screenshot.png" alt="Learn menu where students can view
                 a list of topics."/>
-                <img className="projectImg-narrow" src="images/com3610screenshot2.png" alt="Image of student dashboard overviewing
+                <img className="projectImg-narrow" src="images/com3610screenshot2.png" alt="Student dashboard overviewing
                 progress."/>
             </div>
         </section>
@@ -39,7 +37,7 @@ function ThirdYearPage() {
                 interact with the scene and modify the effects.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg" src="images/com3503screenshot.png" alt="Image of log in screen."/>
+                <img className="projectImg" src="images/com3503screenshot.jpg" alt="Smowman scene in OpenGL"/>
             </div>
         </section>
 

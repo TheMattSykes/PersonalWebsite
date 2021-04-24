@@ -12,8 +12,6 @@ function SecondYearPage() {
 
         <p className="center-block">Overall Year Grade: 2.1 (61.5%)</p>
 
-        <div className="block"></div>
-
         <section className="section-light">
             <h2 className="subtitle-center">Software Hut</h2>
             <p className="project-description">

@@ -4,6 +4,7 @@ module.exports = {
   ],
   siteMetadata: {
     title: "Matt Sykes",
+    titleTemplate: "Matt Sykes",
     description: "Full Stack Web and iOS Developer Studying at the University of Sheffield.",
     twitterUsername: "@TheMattSykes",
   },

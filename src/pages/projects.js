@@ -19,8 +19,8 @@ function ProjectsPage() {
                 by WordPress.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg" src="images/pokesocsheffieldwebsite.png" alt="Image of pie project website 'The Grain Sheff' 
-                with navigation menu, testimonial and images of pies."/>
+                <img className="projectImg" src="images/pokesocsheffieldwebsite.jpg" alt="Pokémon Society Sheffield website, with
+                a banner showing different Pokémon as well as news and what's new."/>
             </div>
             <ProjectButtons projecturl="https://pokemon-soc.union.shef.ac.uk/" projectEnable={true}/>
         </section>

@@ -39,7 +39,7 @@ function MusicPage() {
           <div className="instrument">
             <img src="/images/iconviolin.png" className="instrumenticon" alt="Piano Icon"/>
             <p className="instrumentname">Violin</p>
-            <p className="instrumentgrade"></p>
+            <p className="instrumentgrade">Grade 1 (Trinity)</p>
           </div>
 
           <div className="instrument">

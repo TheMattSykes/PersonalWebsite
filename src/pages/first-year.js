@@ -11,8 +11,6 @@ function FirstYearPage() {
 
         <p className="page-title-center">Overall Year Grade: 2.1 (63.5%)</p>
 
-        <div className="block"></div>
-
         <section className="section-light">
             <h2 className="subtitle-center">Pie Project</h2>
             <p className="project-description">
@@ -22,7 +20,7 @@ function FirstYearPage() {
                 processed by an adminisrator.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg" src="images/com1001screenshot.png" alt="Image of pie project website 'The Grain Sheff' 
+                <img className="projectImg" src="images/com1001screenshot.jpg" alt="Pie project website 'The Grain Sheff' 
                 with navigation menu, testimonial and images of pies."/>
             </div>
         </section>
@@ -33,7 +31,7 @@ function FirstYearPage() {
                 A static website built using HTML and CSS as a guide to the diamond.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg" src="images/com1008screenshot.png" alt="Image of diamond website."/>
+                <img className="projectImg" src="images/com1008screenshot.jpg" alt="Diamond website."/>
             </div>
         </section>
 
@@ -43,7 +41,7 @@ function FirstYearPage() {
                 For the second half of Java Programming we were asked to improve a skeleton code for a chess game and implement a GUI.
             </p>
             <div className="projectImgWrapper">
-                <img className="projectImg" src="images/com1003screenshot.png" alt="Image of chess board in a default starting layout."/>
+                <img className="projectImg" src="images/com1003screenshot.png" alt="Chess board in a default starting layout."/>
             </div>
         </section>
 

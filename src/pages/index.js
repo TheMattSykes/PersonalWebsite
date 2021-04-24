@@ -10,7 +10,7 @@ function IndexPage() {
     <Layout>
 
       <div className="welcome-area">
-        <img src={'/images/background.png'} className="background" alt="Background."></img>
+        <img src={'/images/background.jpg'} className="background" alt="Background."></img>
         <div className="welcome-info">
           <img src={'/images/full-logo-white.svg'} className="background-logo" alt="Main Logo (Non-link)" />
           <p className="welcome-desc">Full-Stack Web and iOS Developer</p>
@@ -44,8 +44,7 @@ function IndexPage() {
           both of these societies I enjoy designing graphics and editing videos to engage with our memebers.
         </p>
         <p>
-          In my spare time I'm a keen keyboard/piano player and composer for my channel Neutrino Audio using Logic Pro. I'm also
-          learning the violin and ocarina.
+          In my spare time I'm a keen keyboard, piano, violin, recorder and ocarina player as well as a composer for my channel Neutrino Audio using Logic Pro.
         </p>
       </main>
 
