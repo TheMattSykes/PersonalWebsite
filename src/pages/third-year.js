@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'gatsby';
 import Layout from '../components/layout';
 import '../styles/years.scss';
+import ProjectButtons from '../components/projectbuttons';
 
 function ThirdYearPage() {
   return (
@@ -28,6 +29,7 @@ function ThirdYearPage() {
                 <img className="projectImg-narrow" src="images/com3610screenshot2.png" alt="Student dashboard overviewing
                 progress."/>
             </div>
+            <ProjectButtons sourceurl="https://github.com/TheMattSykes/HustingsDissertation" sourceEnable={true} dark={false}/>
         </section>
 
         <section className="section-dark">
