@@ -1,5 +1,10 @@
+.uni-desc {
+    text-align: center;
+}
+
 .year-links {
     margin: auto;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,7 +25,7 @@
     transition: transform 0.2s;
 }
 
-.year-link:hover {
+.year-link:hover, .modules-link:hover {
     transform: scale(1.03);
 }
 
@@ -67,4 +72,60 @@
     width: 100%;
     margin: auto;
     display: block;
+}
+
+/*
+Module Results
+*/
+
+.year-title {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+td {
+    max-width: 200px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.modules-table {
+    max-width: 1000px;
+    margin: 0px auto 50px auto;
+    text-align: center;
+}
+
+.grade {
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(30,30,30);
+    color: white;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.grade-first {
+    background-color: rgb(151, 123, 0);
+    background-image: linear-gradient(to right,rgb(151, 123, 0), rgb(181, 153, 30));
+}
+
+.grade-two-one {
+    background-color: rgb(38, 156, 63);
+    // background-image: linear-gradient(to right,rgb(114, 114, 114), rgb(144, 144, 144));
+}
+
+.grade-two-two {
+    background-color: rgb(199, 102, 38);
+}
+
+.grade-pass {
+    background-color: rgb(91, 67, 196);
+}
+
+.grade-fail {
+    background-color: rgb(167, 48, 48);
 }

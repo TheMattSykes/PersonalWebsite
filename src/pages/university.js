@@ -8,6 +8,7 @@ function UniversityPage() {
     <Layout>
       <main className="page-main">
         <h1 className="page-title-center">University</h1>
+        <p className="uni-desc">MComp Computer Science - University of Sheffield</p>
 
         <section className="year-links">
           <Link to="/first-year" className="year-link">
@@ -28,6 +29,11 @@ function UniversityPage() {
           <Link to="/fourth-year" className="year-link">
             <h2 className="year-link-number">4</h2>
             <p className="year-link-title">Fourth Year</p>
+          </Link>
+
+          <Link to="/modules" className="year-link module-link">
+            <h2 className="year-link-number">M</h2>
+            <p className="year-link-title">Module Results</p>
           </Link>
         </section>
       </main>
