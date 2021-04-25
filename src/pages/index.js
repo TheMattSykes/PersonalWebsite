@@ -15,9 +15,9 @@ function IndexPage() {
           <img src={'/images/full-logo-white.svg'} className="background-logo" alt="Main Logo (Non-link)" />
           <p className="welcome-desc">Full-Stack Web and iOS Developer</p>
           <div className="social-icons">
-            <a href=""><img src={'/images/twitter-round-icon.svg'} alt="Twitter social link." className="social-icon" /></a>
-            <a href=""><img src={'/images/github-round-icon.png'} alt="Github social link." className="social-icon" /></a>
-            <a href=""><img src={'/images/linkedin-icon.png'} alt="LinkedIn social link." className="social-icon" /></a>
+            <a href="https://twitter.com/TheMattSykes"><img src={'/images/twitter-round-icon.svg'} alt="Twitter social link." className="social-icon" /></a>
+            <a href="https://github.com/TheMattSykes"><img src={'/images/github-round-icon.png'} alt="Github social link." className="social-icon" /></a>
+            <a href="https://linkedin.com/in/TheMattSykes"><img src={'/images/linkedin-icon.png'} alt="LinkedIn social link." className="social-icon" /></a>
           </div>
           <div className="container">
             <div className="chevron"></div>
